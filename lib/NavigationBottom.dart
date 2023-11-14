@@ -54,6 +54,7 @@ class NavigationExampleState extends State<NavigationExample> {
     });
   }
 
+
   void messageReceived(String msg){
     setState(() {
       if(renderPlaybacks && renderOverrides && currentPageIndex == 0) {
